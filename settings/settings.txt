@@ -1,0 +1,31 @@
+{
+
+
+    "general"       : {
+                       "device"                     : "cuda",
+                       "samples directory"          : "dataset/sample_frames",
+                       "weights directory"          : "model/weights.pt",
+                       "visual"                     : false,
+                       "output directory"           : "output",
+                       "visual"                     : false
+                      },
+
+    "model"         : {
+                       "number of epochs"           : 40,
+                       "batch size"                 : 96,
+                       "learning rate"              : 1e-5,
+                       "weight decay"               : 1e-5,
+                       "train validation ratio"     : 0.3,
+                       "seed"                       : 42,
+                       "output directory"           : "dataset/train",
+                       "number of workers"          : 8
+                      },
+
+    "train dataset" : {
+                       "motion dataset directory"   : "dataset/motion_dataset2_fft",
+                       "static dataset directory"   : "dataset/static_dataset3+4_fft",
+                       "shuffle"                    : 0
+                      }
+    
+
+}
