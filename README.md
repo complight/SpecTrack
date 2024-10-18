@@ -51,7 +51,7 @@ pip install -e .
 
 ### (1) Dataset
 
-If training is needed, please download the training datasets from the URL: https://figshare.com/s/dc060a0669c8b9dc5c72 and place the unzipped `motion_dataset2_fft` and `static_dataset3+4_fft`under the dataset folder.
+If training is needed, please download the training datasets from the [URL](https://rdr.ucl.ac.uk/ndownloader/articles/27232944/versions/1) and place the unzipped `motion_dataset2_fft` and `static_dataset3+4_fft`under the dataset folder.
 
 ### (2) Runtime
 Once you have the main dependency installed, you can run the code base using the default settings by providing the below syntax:
